@@ -8,11 +8,6 @@ export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
-  // state = {
-  //   good: 0,
-  //   neutral: 0,
-  //   bad: 0,
-  // };
 
   const options = { good, bad, neutral };
 
@@ -69,20 +64,3 @@ export const App = () => {
     </>
   );
 };
-
-// switch (e.targe.name) {
-//   case 'good':
-//     this.setState(prevState => ({ good: this.state.good + 1 }));
-//     break;
-
-//   case 'neutral':
-//     this.setState(prevState => ({ neutral: this.state.good + 1 }));
-//     break;
-
-//     case 'bad':
-//     this.setState(prevState => ({ bad: this.state.good + 1 }));
-//     break;
-
-//   default:
-//     break;
-// }
