@@ -1,0 +1,14 @@
+.btn {
+  width: 75px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgb(205, 243, 230);
+  font-style: italic;
+  box-shadow: 10px 5px 5px grey;
+  margin-left: 20px;
+}
+.btn:hover {
+  background-color: rgb(234, 212, 237);
+  box-shadow: 10px 5px 5px rgb(231, 120, 203);
+}
